@@ -14,6 +14,8 @@ const Tomato = () => {
 const Container = styled.div`
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
+
+  padding: 0 2rem;
 `;
 
 const rootElement = document.getElementById('root');
