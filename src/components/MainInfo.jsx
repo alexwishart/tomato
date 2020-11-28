@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import tomatoImage from '../images/tomato.jpg';
+import { mainContent } from '../content/main';
 
 const MainInfo = () => {
   return (
     <>
-      <h1>The Tomato</h1>
-      <TomatoImage src={tomatoImage} />
+      <h1>{mainContent.title}</h1>
+      <TomatoImage src={mainContent.image} />
     </>
   );
 };
