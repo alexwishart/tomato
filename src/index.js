@@ -1,17 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import styled from 'styled-components'
 import tomatoImage from "./images/tomato.jpg";
 
-import "./styles.css";
-
-function Tomato() {
+const Tomato = () => {
   return (
-    <div className="Tomato">
+    <Container>
       <h1>The Tomato</h1>
-      <img className="Tomato__image" src={tomatoImage} />
-    </div>
+      <TomatoImage src={tomatoImage} />
+    </Container>
   );
 }
+
+const Container = styled.div`
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+`
+
+const TomatoImage = styled.img`
+  width: 250px;  
+`
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<Tomato />, rootElement);
