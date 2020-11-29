@@ -1,0 +1,380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The NutritionalInfo component should render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-bdfBwQ eidNGR"
+      >
+        <h3>
+          Red tomatoes, raw
+        </h3>
+        <p>
+          Nutritional value per 100 g (3.5 oz)
+        </p>
+        <table>
+          <tbody>
+            <tr>
+              <th
+                class="sc-gsTCUz fbHruz"
+              >
+                Energy
+              </th>
+              <th
+                class="sc-gsTCUz fbHruz"
+              >
+                74kJ (18 kcal)
+              </th>
+            </tr>
+            <tr>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                Carbohydrates
+              </td>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                3.9 g
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                - Sugars
+              </td>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                2.6 g
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                - Dietary fiber
+              </td>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                1.2 g
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                Fat
+              </td>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                0.2 g
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                Protein
+              </td>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                0.9 g
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                Water
+              </td>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                94.5 g
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                Vitamin A equiv.
+              </td>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                42 µg (5%)
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                - lutein and zeaxanthin
+              </td>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                123 µg
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                Vitamin C
+              </td>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                14 mg (17%)
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                Vitamin E
+              </td>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                0.54 mg (4%)
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                Potassium
+              </td>
+              <td
+                class="sc-dlfnbm jELKvi"
+              >
+                237 mg (5%)
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bdfBwQ eidNGR"
+    >
+      <h3>
+        Red tomatoes, raw
+      </h3>
+      <p>
+        Nutritional value per 100 g (3.5 oz)
+      </p>
+      <table>
+        <tbody>
+          <tr>
+            <th
+              class="sc-gsTCUz fbHruz"
+            >
+              Energy
+            </th>
+            <th
+              class="sc-gsTCUz fbHruz"
+            >
+              74kJ (18 kcal)
+            </th>
+          </tr>
+          <tr>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              Carbohydrates
+            </td>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              3.9 g
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              - Sugars
+            </td>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              2.6 g
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              - Dietary fiber
+            </td>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              1.2 g
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              Fat
+            </td>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              0.2 g
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              Protein
+            </td>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              0.9 g
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              Water
+            </td>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              94.5 g
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              Vitamin A equiv.
+            </td>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              42 µg (5%)
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              - lutein and zeaxanthin
+            </td>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              123 µg
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              Vitamin C
+            </td>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              14 mg (17%)
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              Vitamin E
+            </td>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              0.54 mg (4%)
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              Potassium
+            </td>
+            <td
+              class="sc-dlfnbm jELKvi"
+            >
+              237 mg (5%)
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

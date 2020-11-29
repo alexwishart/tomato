@@ -20,7 +20,7 @@ const MainInfo = () => {
 };
 
 const Container = styled.div`
-  width: 50%;
+  width: 65%;
 `;
 
 const TomatoImage = styled.img`
