@@ -1,15 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 import MainInfo from './MainInfo';
+import NutritionalInfo from './NutritionalInfo';
+import { mainContent } from '../content/main';
 
 const Tomato = () => {
   return (
     <Container>
       <Title>
-        <h1>The Tomato</h1>
+        <h1>{mainContent.title}</h1>
       </Title>
       <ContentContainer>
         <MainInfo />
+        <NutritionalInfo />
       </ContentContainer>
     </Container>
   );
@@ -28,6 +31,7 @@ const Title = styled.div`
 
 const ContentContainer = styled.div`
   display: flex;
+  justify-content: space-between;
 `;
 
 export default Tomato;
