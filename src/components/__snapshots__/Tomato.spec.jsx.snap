@@ -219,6 +219,19 @@ Object {
                 </tr>
               </tbody>
             </table>
+            <p>
+              Percentages are relative to US recommendations for adults
+            </p>
+            <p>
+              Source:
+               
+              <a
+                href="http://www.nal.usda.gov/fnic/foodcomp/search/"
+              >
+                 
+                USDA Nutrient Database
+              </a>
+            </p>
           </div>
         </div>
       </div>
@@ -439,6 +452,19 @@ Object {
               </tr>
             </tbody>
           </table>
+          <p>
+            Percentages are relative to US recommendations for adults
+          </p>
+          <p>
+            Source:
+             
+            <a
+              href="http://www.nal.usda.gov/fnic/foodcomp/search/"
+            >
+               
+              USDA Nutrient Database
+            </a>
+          </p>
         </div>
       </div>
     </div>

@@ -23,6 +23,14 @@ const NutritionalInfo = () => {
           })}
         </tbody>
       </table>
+      <p>{nutritionalInfoContent.footer.paragraphs[0]}</p>
+      <p>
+        {nutritionalInfoContent.footer.paragraphs[1]}{' '}
+        <a href={nutritionalInfoContent.footer.link.href}>
+          {' '}
+          {nutritionalInfoContent.footer.link.text}
+        </a>
+      </p>
     </Container>
   );
 };

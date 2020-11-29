@@ -17,6 +17,14 @@ export const nutritionalInfoContent = {
       ['Potassium', '237 mg (5%)'],
     ],
   },
-  footer:
-    'Percentages are relative to US recommendations for adults. Source: USDA Nutrient Database',
+  footer: {
+    paragraphs: [
+      'Percentages are relative to US recommendations for adults',
+      'Source:',
+    ],
+    link: {
+      text: 'USDA Nutrient Database',
+      href: 'http://www.nal.usda.gov/fnic/foodcomp/search/',
+    },
+  },
 };
