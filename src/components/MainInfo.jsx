@@ -5,9 +5,7 @@ import { mainContent } from '../content/main';
 const MainInfo = () => {
   return (
     <Container>
-      <h1>{mainContent.title}</h1>
       <TomatoImage src={mainContent.image.src} alt={mainContent.image.alt} />
-
       <h2>{mainContent.content.title}</h2>
       {mainContent.content.paragraphs.map((paragraph, i) => {
         return <p key={i}>{paragraph}</p>;

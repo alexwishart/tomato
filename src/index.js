@@ -1,22 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import styled from 'styled-components';
-import MainInfo from './components/MainInfo';
+import Tomato from './components/Tomato';
 
-const Tomato = () => {
-  return (
-    <Container>
-      <MainInfo />
-    </Container>
-  );
+const App = () => {
+  return <Tomato />;
 };
 
-const Container = styled.div`
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-
-  padding: 0 2rem;
-`;
-
 const rootElement = document.getElementById('root');
-ReactDOM.render(<Tomato />, rootElement);
+ReactDOM.render(<App />, rootElement);
