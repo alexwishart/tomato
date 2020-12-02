@@ -3,14 +3,22 @@
 exports[`The MainInfo component should render correctly 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  width: 65%;
+}
+
+.c1 {
+  width: 250px;
+}
+
+<body>
     <div>
       <div
-        class="sc-bdfBwQ cYPkhV"
+        class="c0"
       >
         <img
           alt="Image of tomato"
-          class="sc-gsTCUz fBVUqk"
+          class="c1"
           src="tomato.jpg"
         />
         <h2>

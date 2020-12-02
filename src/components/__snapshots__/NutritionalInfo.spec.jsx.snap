@@ -3,10 +3,22 @@
 exports[`The NutritionalInfo component should render correctly 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  width: 30%;
+}
+
+.c1 {
+  background: #ebebeb;
+}
+
+.c2 {
+  padding-top: 1rem;
+}
+
+<body>
     <div>
       <div
-        class="sc-bdfBwQ eidNGR"
+        class="c0"
       >
         <h3>
           Red tomatoes, raw
@@ -18,144 +30,144 @@ Object {
           <tbody>
             <tr>
               <th
-                class="sc-gsTCUz fbHruz"
+                class="c1"
               >
                 Energy
               </th>
               <th
-                class="sc-gsTCUz fbHruz"
+                class="c1"
               >
                 74kJ (18 kcal)
               </th>
             </tr>
             <tr>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 Carbohydrates
               </td>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 3.9 g
               </td>
             </tr>
             <tr>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 - Sugars
               </td>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 2.6 g
               </td>
             </tr>
             <tr>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 - Dietary fiber
               </td>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 1.2 g
               </td>
             </tr>
             <tr>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 Fat
               </td>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 0.2 g
               </td>
             </tr>
             <tr>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 Protein
               </td>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 0.9 g
               </td>
             </tr>
             <tr>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 Water
               </td>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 94.5 g
               </td>
             </tr>
             <tr>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 Vitamin A equiv.
               </td>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 42 µg (5%)
               </td>
             </tr>
             <tr>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 - lutein and zeaxanthin
               </td>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 123 µg
               </td>
             </tr>
             <tr>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 Vitamin C
               </td>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 14 mg (17%)
               </td>
             </tr>
             <tr>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 Vitamin E
               </td>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 0.54 mg (4%)
               </td>
             </tr>
             <tr>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 Potassium
               </td>
               <td
-                class="sc-dlfnbm jELKvi"
+                class="c2"
               >
                 237 mg (5%)
               </td>
