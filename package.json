@@ -11,8 +11,10 @@
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "eslint-plugin-prettier": "^3.1.4",
+    "jest-styled-components": "^7.0.3",
     "prettier": "^2.2.1"
   },
   "scripts": {
