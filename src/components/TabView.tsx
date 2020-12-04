@@ -43,7 +43,7 @@ const Tab = styled.li`
   list-style-type: none;
 `;
 
-const TabButton = styled.button`
+const TabButton = styled.button<{ active: boolean }>`
   height: 100%;
   width: 100%;
   padding: 0;

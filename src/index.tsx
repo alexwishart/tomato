@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Tomato from './components/Tomato';
+import Tomato from './components/Tomato'
 
 const App = () => {
   return <Tomato />;

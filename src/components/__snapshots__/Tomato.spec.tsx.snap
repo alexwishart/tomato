@@ -23,49 +23,6 @@ Object {
   padding-top: 1rem;
 }
 
-.c8 {
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-  -webkit-justify-content: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
-  padding: 0;
-}
-
-.c9 {
-  width: 100%;
-  height: 2rem;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
-.c10 {
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-  border: none;
-  outline: 0.1rem solid black;
-  background: none;
-}
-
-.c11 {
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-  border: none;
-  outline: 0.1rem solid black;
-  background: light gray;
-}
-
 .c0 {
   padding: 0 2rem;
   font-family: Arial,Helvetica,sans-serif;
@@ -318,60 +275,22 @@ Object {
             </p>
           </div>
         </div>
-        <ul
-          class="c8"
-          role="tablist"
-        >
-          <li
-            class="c9"
-            role="presentation"
-          >
-            <button
-              class="c10"
-              role="tab"
-            >
-              Nutrition
-            </button>
-          </li>
-          <li
-            class="c9"
-            role="presentation"
-          >
-            <button
-              class="c11"
-              role="tab"
-            >
-              Health benefits
-            </button>
-          </li>
-          <li
-            class="c9"
-            role="presentation"
-          >
-            <button
-              class="c11"
-              role="tab"
-            >
-              Storage
-            </button>
-          </li>
-        </ul>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-fubCfw dFPjBw"
+      class="sc-jSgupP bhWUnM"
     >
       <div
-        class="sc-pFZIQ dUxxwr"
+        class="sc-gKsewC jwAxTp"
       >
         <h1>
           The Tomato
         </h1>
       </div>
       <div
-        class="sc-jrAGrp kXpyIe"
+        class="sc-iBPRYJ eBvofg"
       >
         <div
           class="sc-bdfBwQ cYPkhV"
@@ -589,44 +508,6 @@ Object {
           </p>
         </div>
       </div>
-      <ul
-        class="sc-jSgupP cxLdMN"
-        role="tablist"
-      >
-        <li
-          class="sc-gKsewC kVcpiS"
-          role="presentation"
-        >
-          <button
-            class="sc-iBPRYJ iobhGL"
-            role="tab"
-          >
-            Nutrition
-          </button>
-        </li>
-        <li
-          class="sc-gKsewC kVcpiS"
-          role="presentation"
-        >
-          <button
-            class="sc-iBPRYJ cxUpbi"
-            role="tab"
-          >
-            Health benefits
-          </button>
-        </li>
-        <li
-          class="sc-gKsewC kVcpiS"
-          role="presentation"
-        >
-          <button
-            class="sc-iBPRYJ cxUpbi"
-            role="tab"
-          >
-            Storage
-          </button>
-        </li>
-      </ul>
     </div>
   </div>,
   "debug": [Function],
