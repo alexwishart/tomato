@@ -2,7 +2,7 @@ import React from 'react';
 import { fireEvent, render } from '@testing-library/react';
 import TabView from './TabView';
 import { act } from 'react-dom/test-utils';
-import { TabInfo } from '../content/tabInfo';
+import { TabInfo } from '../content/tomatoTabs';
 
 describe('The TabView component', () => {
   it('should render correctly (with the first tab active)', () => {

@@ -4,7 +4,7 @@ import MainInfo from './MainInfo';
 import NutritionalInfo from './NutritionalInfo';
 import TabView from './TabView';
 import { mainContent } from '../content/main';
-import { tomatoTabs } from '../content/tabInfo';
+import { tomatoTabs } from '../content/tomatoTabs';
 
 const Tomato = () => {
   return (

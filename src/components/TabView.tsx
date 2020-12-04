@@ -24,7 +24,10 @@ const TabView: React.FC<{ tabs: TabInfo[] }> = (props: { tabs: TabInfo[] }) => {
           );
         })}
       </Tabs>
-      <TabContent role="tabpanel">{props.tabs[activeTab].content}</TabContent>
+      <TabContent
+        role="tabpanel"
+        dangerouslySetInnerHTML={{ __html: props.tabs[activeTab].content }}
+      />
     </>
   );
 };
