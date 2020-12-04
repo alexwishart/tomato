@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { TabInfo } from '../content/tabInfo';
+import { TabInfo } from '../types/contentTypes';
 
 const TabView: React.FC<{ tabs: TabInfo[] }> = (props: { tabs: TabInfo[] }) => {
   const [activeTab, setActiveTab] = useState(0);

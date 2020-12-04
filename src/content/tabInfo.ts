@@ -1,7 +1,4 @@
-export type TabInfo = {
-  title: string;
-  content: string;
-};
+import { TabInfo } from '../types/contentTypes';
 
 export const tomatoTabs: TabInfo[] = [
   {
