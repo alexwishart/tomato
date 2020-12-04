@@ -46,6 +46,13 @@ Object {
   background: light gray;
 }
 
+.c4 {
+  height: 10rem;
+  padding: 0.5rem;
+  outline: 0.1rem solid black;
+  overflow-y: scroll;
+}
+
 <body>
     <div>
       <ul
@@ -86,6 +93,12 @@ Object {
           </button>
         </li>
       </ul>
+      <div
+        class="c4"
+        role="tabpanel"
+      >
+        content 1
+      </div>
     </div>
   </body>,
   "container": <div>
@@ -127,6 +140,12 @@ Object {
         </button>
       </li>
     </ul>
+    <div
+      class="sc-hKgILt bRXWUn"
+      role="tabpanel"
+    >
+      content 1
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

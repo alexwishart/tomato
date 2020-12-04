@@ -2,15 +2,13 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { TabInfo } from '../content/tabInfo';
 
-const TabView: React.FC<{ content: TabInfo[] }> = (props: {
-  content: TabInfo[];
-}) => {
+const TabView: React.FC<{ tabs: TabInfo[] }> = (props: { tabs: TabInfo[] }) => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
     <>
       <Tabs role="tablist">
-        {props.content.map((tab, i) => {
+        {props.tabs.map((tab, i) => {
           return (
             <Tab role="presentation" key={tab.title}>
               <TabButton
@@ -26,6 +24,7 @@ const TabView: React.FC<{ content: TabInfo[] }> = (props: {
           );
         })}
       </Tabs>
+      <TabContent role="tabpanel">{props.tabs[activeTab].content}</TabContent>
     </>
   );
 };
@@ -55,6 +54,14 @@ const TabButton = styled.button<{ active: boolean }>`
   outline: 0.1rem solid black;
 
   background: ${(props) => (props.active ? 'none' : 'light gray')};
+`;
+
+const TabContent = styled.div`
+  height: 10rem;
+  padding: 0.5rem;
+  outline: 0.1rem solid black;
+
+  overflow-y: scroll;
 `;
 
 export default TabView;

@@ -44,6 +44,11 @@ Object {
   justify-content: space-between;
 }
 
+.c8 {
+  width: 66%;
+  padding-top: 1rem;
+}
+
 <body>
     <div>
       <div
@@ -276,8 +281,12 @@ Object {
           </div>
         </div>
         <div
-          id="TabView"
-        />
+          class="c8"
+        >
+          <div
+            id="TabView"
+          />
+        </div>
       </div>
     </div>
   </body>,
@@ -512,8 +521,12 @@ Object {
         </div>
       </div>
       <div
-        id="TabView"
-      />
+        class="sc-fubCfw jlxQKy"
+      >
+        <div
+          id="TabView"
+        />
+      </div>
     </div>
   </div>,
   "debug": [Function],

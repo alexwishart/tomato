@@ -16,7 +16,9 @@ const Tomato = () => {
         <MainInfo />
         <NutritionalInfo />
       </ContentContainer>
-      <TabView content={tomatoTabs} />
+      <TabsContainer>
+        <TabView tabs={tomatoTabs} />
+      </TabsContainer>
     </Container>
   );
 };
@@ -35,6 +37,11 @@ const Title = styled.div`
 const ContentContainer = styled.div`
   display: flex;
   justify-content: space-between;
+`;
+
+const TabsContainer = styled.div`
+  width: 66%;
+  padding-top: 1rem;
 `;
 
 export default Tomato;
