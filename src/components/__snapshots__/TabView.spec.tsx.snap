@@ -60,7 +60,7 @@ Object {
             class="c2"
             role="tab"
           >
-            Nutrition
+            1
           </button>
         </li>
         <li
@@ -71,7 +71,7 @@ Object {
             class="c3"
             role="tab"
           >
-            Health benefits
+            2
           </button>
         </li>
         <li
@@ -82,7 +82,7 @@ Object {
             class="c3"
             role="tab"
           >
-            Storage
+            3
           </button>
         </li>
       </ul>
@@ -101,7 +101,7 @@ Object {
           class="sc-dlfnbm bxWKmq"
           role="tab"
         >
-          Nutrition
+          1
         </button>
       </li>
       <li
@@ -112,7 +112,7 @@ Object {
           class="sc-dlfnbm kdjINT"
           role="tab"
         >
-          Health benefits
+          2
         </button>
       </li>
       <li
@@ -123,7 +123,7 @@ Object {
           class="sc-dlfnbm kdjINT"
           role="tab"
         >
-          Storage
+          3
         </button>
       </li>
     </ul>
