@@ -2,7 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import MainInfo from './MainInfo';
 import NutritionalInfo from './NutritionalInfo';
+import TabView from './TabView';
 import { mainContent } from '../content/main';
+import { tomatoTabs } from '../content/tabInfo';
 
 const Tomato = () => {
   return (
@@ -14,6 +16,7 @@ const Tomato = () => {
         <MainInfo />
         <NutritionalInfo />
       </ContentContainer>
+      <TabView content={tomatoTabs} />
     </Container>
   );
 };

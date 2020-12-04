@@ -275,6 +275,9 @@ Object {
             </p>
           </div>
         </div>
+        <div
+          id="TabView"
+        />
       </div>
     </div>
   </body>,
@@ -508,6 +511,9 @@ Object {
           </p>
         </div>
       </div>
+      <div
+        id="TabView"
+      />
     </div>
   </div>,
   "debug": [Function],

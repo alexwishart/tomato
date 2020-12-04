@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { tabInfo } from '../content/tabInfo';
+import { TabInfo } from '../content/tabInfo';
 
-const TabView = () => {
+const TabView: React.FC<{ content: TabInfo[] }> = (props: {
+  content: TabInfo[];
+}) => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
     <>
       <Tabs role="tablist">
-        {tabInfo.map((tab, i) => {
+        {props.content.map((tab, i) => {
           return (
             <Tab role="presentation" key={tab.title}>
               <TabButton
