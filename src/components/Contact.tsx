@@ -19,7 +19,7 @@ const Contact = () => {
       >
         {contactContent.inputFields.map((field, i) => {
           return (
-            <label key={field.value}>
+            <Label key={field.value}>
               {field.label}
               <Input
                 type="text"
@@ -30,7 +30,7 @@ const Contact = () => {
                   setContactDetails(newDetails);
                 }}
               ></Input>
-            </label>
+            </Label>
           );
         })}
         <SubmitButton type="submit">
@@ -49,14 +49,30 @@ const Container = styled.div`
 const Form = styled.form`
   display: flex;
   flex-direction: column;
+  width: 50%;
+`;
+
+const Label = styled.label`
+  display: flex;
+  align-items: center;
 `;
 
 const Input = styled.input`
+  flex: 1;
   margin: 0.5rem;
 `;
 
 const SubmitButton = styled.button`
-  width: 20%;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  text-decoration: underline;
+
+  align-self: flex-end;
   margin-top: 0.5rem;
 `;
+
 export default Contact;
