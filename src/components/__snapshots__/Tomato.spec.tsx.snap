@@ -281,19 +281,15 @@ Object {
           </div>
         </div>
         <div
-          class="c2"
+          class="c8"
         >
           <div
-            class="c8"
-          >
-            <div
-              id="TabView"
-            />
-          </div>
-          <div
-            id="Contact"
+            id="TabView"
           />
         </div>
+        <div
+          id="Contact"
+        />
       </div>
     </div>
   </body>,
@@ -528,19 +524,15 @@ Object {
         </div>
       </div>
       <div
-        class="sc-iBPRYJ eBvofg"
+        class="sc-fubCfw jlxQKy"
       >
         <div
-          class="sc-fubCfw jlxQKy"
-        >
-          <div
-            id="TabView"
-          />
-        </div>
-        <div
-          id="Contact"
+          id="TabView"
         />
       </div>
+      <div
+        id="Contact"
+      />
     </div>
   </div>,
   "debug": [Function],

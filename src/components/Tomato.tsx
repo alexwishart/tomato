@@ -18,12 +18,10 @@ const Tomato = () => {
         <NutritionalInfo />
       </ContentContainer>
 
-      <ContentContainer>
-        <TabsContainer>
-          <TabView tabs={tomatoTabs} />
-        </TabsContainer>
-        <Contact />
-      </ContentContainer>
+      <TabsContainer>
+        <TabView tabs={tomatoTabs} />
+      </TabsContainer>
+      <Contact />
     </Container>
   );
 };
