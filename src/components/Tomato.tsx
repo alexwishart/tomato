@@ -5,6 +5,7 @@ import NutritionalInfo from './NutritionalInfo';
 import TabView from './TabView';
 import { mainContent } from '../content/main';
 import { tomatoTabs } from '../content/tomatoTabs';
+import Contact from './Contact';
 
 const Tomato = () => {
   return (
@@ -16,9 +17,13 @@ const Tomato = () => {
         <MainInfo />
         <NutritionalInfo />
       </ContentContainer>
-      <TabsContainer>
-        <TabView tabs={tomatoTabs} />
-      </TabsContainer>
+
+      <ContentContainer>
+        <TabsContainer>
+          <TabView tabs={tomatoTabs} />
+        </TabsContainer>
+        <Contact />
+      </ContentContainer>
     </Container>
   );
 };

@@ -281,10 +281,17 @@ Object {
           </div>
         </div>
         <div
-          class="c8"
+          class="c2"
         >
           <div
-            id="TabView"
+            class="c8"
+          >
+            <div
+              id="TabView"
+            />
+          </div>
+          <div
+            id="Contact"
           />
         </div>
       </div>
@@ -521,10 +528,17 @@ Object {
         </div>
       </div>
       <div
-        class="sc-fubCfw jlxQKy"
+        class="sc-iBPRYJ eBvofg"
       >
         <div
-          id="TabView"
+          class="sc-fubCfw jlxQKy"
+        >
+          <div
+            id="TabView"
+          />
+        </div>
+        <div
+          id="Contact"
         />
       </div>
     </div>
