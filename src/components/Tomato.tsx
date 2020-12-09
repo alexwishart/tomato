@@ -43,7 +43,7 @@ const ContentContainer = styled.div`
 `;
 
 const TabsContainer = styled.div`
-  width: 66%;
+  width: 100%;
   padding-top: 1rem;
 `;
 

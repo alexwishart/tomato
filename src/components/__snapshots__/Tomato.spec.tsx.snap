@@ -45,7 +45,7 @@ Object {
 }
 
 .c8 {
-  width: 66%;
+  width: 100%;
   padding-top: 1rem;
 }
 
@@ -524,7 +524,7 @@ Object {
         </div>
       </div>
       <div
-        class="sc-fubCfw jlxQKy"
+        class="sc-fubCfw jERzYb"
       >
         <div
           id="TabView"
